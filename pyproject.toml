@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pygaello"
+name = "pygaello-consumer"
 version = "0.1.0"
 description = "Gaello Consumer: Component of the Gaello X project. Consumes from the dedicated rabbitmq queue and feeds  a neo4j graph database"
 authors = ["Cephas Nukunu Soga <110126432+CephasSoga@users.noreply.github.com>"]
