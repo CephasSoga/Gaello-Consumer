@@ -1,0 +1,8 @@
+gaello.egg-info
+dist
+Pipfile
+Pipfile.lock
+logs
+rsrv.md
+consumer/__pycache__
+graph/__pycache__

@@ -1,0 +1,15 @@
+2024-07-31 10:52:38,635 - Graph Consumer - ERROR - Amqp > Connection:: Error connecting to RabbitMQ (attempt 1/5) | Error: [Errno 11001] getaddrinfo failed
+
+
+2024-07-31 10:53:51,669 - Graph Consumer - ERROR - Amqp > Connection:: Error connecting to RabbitMQ (attempt 2/5) | Error: [Errno 11001] getaddrinfo failed
+
+
+2024-07-31 10:55:04,656 - Graph Consumer - ERROR - Amqp > Connection:: Error connecting to RabbitMQ (attempt 3/5) | Error: [Errno 11001] getaddrinfo failed
+
+
+2024-07-31 10:56:17,708 - Graph Consumer - ERROR - Amqp > Connection:: Error connecting to RabbitMQ (attempt 4/5) | Error: [Errno 11001] getaddrinfo failed
+
+
+2024-07-31 10:57:30,819 - Graph Consumer - ERROR - Amqp > Connection:: Error connecting to RabbitMQ (attempt 5/5) | Error: [Errno 11001] getaddrinfo failed
+
+

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pygaello"
+version = "0.1.0"
+description = "Gaello Consumer: Component of the Gaello X project. Consumes from the dedicated rabbitmq queue and feeds  a neo4j graph database"
+authors = ["Cephas Nukunu Soga <110126432+CephasSoga@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "consumer"}, {include = "utils_consumer"}, {include = "graph"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "2.3.1"
+pika = "^1.3.2"
+neo4j = "^5.23.0"
+build = "^1.2.1"
+python-dotenv = "^1.0.1"
+tqdm = "^4.66.4"
+nltk = "^3.8.1"
+numpy = "1.26.4"
+setuptools = "^72.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
